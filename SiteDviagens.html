@@ -1,64 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <title>Sitezin</title>
   <link rel="stylesheet" href="viagens.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <style>
+    .img1 {
+      max-width: 50px;
+      width: 350px;
+      height: auto;
+    }
+  </style>
 </head>
+
 <body>
 
- 
+
   <div class="container-fluid">
 
-     <header class="head">
-      <h1>Site de Viagens Letêrla</h1>
-     </header>
+    <header>
+      <h1 class="fw-bold">Site de Viagens Letêrla</h1>
+    </header>
 
     <div class="row">
-  <div class="menu col-12 col-md-3 p2"  >
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item1')">Bangkok</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item2')">Paris</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item3')">Londres</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item4')">Dubai</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item5')">Istambul</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item6')">Kuala Lumpur</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item7')">Nova York</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item8')">Tóquio</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item9')">Antália</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item10')">Seul</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item11')">Osaka</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item12')">Meca</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item13')">Phuket</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item14')">Roma</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item15')">Pattaya</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item16')">Barcelona</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item17')">Milão</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item18')">Hong Kong</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item19')">Amsterdã</a>
-    <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item20')">Singapuraa</a>
-  </div>
+      <div class="menu col-12 col-md-2 p2">
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item1')">Bangkok</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item2')">Paris</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item3')">Londres</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item4')">Dubai</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item5')">Istambul</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item6')">Kuala Lumpur</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item7')">Nova York</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item8')">Tóquio</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item9')">Antália</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item10')">Seul</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item11')">Osaka</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item12')">Meca</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item13')">Phuket</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item14')">Roma</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item15')">Pattaya</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item16')">Barcelona</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item17')">Milão</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item18')">Hong Kong</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item19')">Amsterdã</a>
+        <a class="btn btn-outline-secondary text-black" onclick="mostrarConteudo('item20')">Singapuraa</a>
+      </div>
 
-  <!-- Conteúdo dinâmico -->
-        <div class="conteudo col-12 col-md-9 p2" id="conteudo">
-            <h2 style="font-size: 60px;">Clique em uma cidade do menu para mais informações.</h2>
-            <br>
-            <p>Seja bem-vindo ao seu novo ponto de partida para experiências de viagem inesquecíveis. Nosso site foi criado para transformar a maneira como você encontra, compara e reserva hospedagens — com praticidade, segurança e total transparência.
-Viajar é mais do que mudar de lugar: é descobrir novos mundos, criar memórias e viver momentos únicos. Por isso, acreditamos que a escolha do hotel ideal faz toda a diferença. É por isso que oferecemos uma plataforma completa, acessível e intuitiva para que você encontre acomodações que combinem perfeitamente com seu estilo, suas necessidades e seu orçamento.
-Aqui, você pode explorar milhares de opções de hotéis, pousadas, resorts, hostels e até hospedagens alternativas, como chalés e casas de temporada. Seja uma viagem de negócios em grandes cidades, um retiro romântico em destinos tranquilos ou férias com a família à beira-mar, temos opções cuidadosamente selecionadas em todo o Brasil e no exterior.
-Nosso sistema foi pensado para facilitar sua jornada: com filtros avançados, você pode refinar os resultados por categoria de estrelas, avaliações de hóspedes, localização, faixa de preço, tipo de acomodação, serviços oferecidos (como Wi-Fi, piscina, café da manhã, estacionamento, acessibilidade e muito mais), além de poder visualizar fotos reais e comentários detalhados de viajantes que já estiveram lá.
-Valorizamos a confiança que você deposita em nós a cada busca e reserva. Por isso, todos os nossos parceiros passam por critérios rigorosos de qualidade, e oferecemos suporte dedicado para garantir que você tenha uma experiência tranquila e satisfatória do início ao fim. Nossa tecnologia de segurança protege seus dados e pagamentos, garantindo que cada transação seja segura e confiável.
-Também trabalhamos com tarifas exclusivas e condições flexíveis, como cancelamento gratuito e pagamento parcelado, para que você tenha liberdade para planejar sua viagem sem preocupações.
-Além disso, oferecemos recomendações personalizadas com base em seu perfil de busca, preferências anteriores e localização, ajudando você a descobrir lugares incríveis que talvez nem estivesse procurando — mas que se tornam perfeitos para sua viagem.
-Nossa missão é ser mais do que um site de reservas. Queremos ser o seu companheiro de viagem desde o primeiro clique até o momento do check-out. Uma plataforma feita para facilitar, inspirar e garantir que cada estadia seja uma parte positiva da sua jornada.
-Porque viajar bem começa com uma boa escolha de onde ficar. E a melhor escolha está aqui.
-Explore destinos. Compare opções. Reserve com confiança.
-Seu próximo destino começa agora.</p>
-
+      <!-- Conteúdo dinâmico -->
+      <div class="conteudo col-12 col-md-10 p2" id="conteudo">
+        <div class="col-12 col-md-3">
+          <div class="card">
+          <h5 class="card-header">Featured</h5>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
+        </div>
+        
+      </div>
     </div>
-</div>
-  <script src="script.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
 </body>
+
 </html>
