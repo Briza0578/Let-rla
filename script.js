@@ -25,7 +25,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">Too Hotel & Spa Paris - MGallery Collection</h5>
           <p class="card-text"> hotel oferece a você quartos com ar-condicionado, mesa de trabalho, cafeteira, geladeira, cofre, TV de tela plana e banheiro privativo com chuveiro. Este hotel conta com algumas unidades com vista para o rio, e os quartos contam com chaleira. Neste hotel, os quartos têm roupa de cama e toalhas.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">SO/ Paris Hotel</h5>
           <p class="card-text">Neste hotel, os quartos possuem guarda-roupa, TV de tela plana, banheiro privativo, roupa de cama e toalhas. Os quartos têm cafeteira, enquanto alguns quartos também contam com varanda e outros também contam com vista para a cidade. As unidades oferecem cofre..</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -49,7 +49,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">Hôtel Moderniste</h5>
           <p class="card-text">Localizado em uma bela e muito tranquila “rua burguesa” no 15º arrondissement de Paris, no centro do distrito de convenções e muito perto do Centro de Exposições Porte de Versailles, o Hôtel Moderniste abre suas portas após uma renovação completa.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -61,7 +61,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">Quinzerie hôtel</h5>
           <p class="card-text">Quinzerie hôtel oferece academia, jardim, lounge compartilhado e terraço em Paris. Este hotel 4 estrelas oferece serviço de quarto, uma recepção 24 horas e Wi-Fi grátis. O hotel tem sauna e um caixa eletrônico.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -84,7 +84,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">Mesm Tokyo, Autograph Collection</h5>
           <p class="card-text">Hotel 5 estrelas em Minato, com restaurante, academia e vista para a cidade. Quartos modernos com TV de tela plana, cafeteira e banheiro luxuoso.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -96,7 +96,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">The Royal Park Iconic Tokyo Shiodome</h5>
           <p class="card-text">Localizado no centro de Tóquio, próximo a Ginza e Shimbashi, oferece quartos elegantes, restaurante panorâmico e academia moderna.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">Park Hotel Tokyo</h5>
           <p class="card-text">Hotel boutique no distrito de Shiodome, famoso por seus quartos com obras de arte originais e vista espetacular da Torre de Tóquio.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -120,7 +120,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">Hotel Gracery Shinjuku</h5>
           <p class="card-text">Ícone de Shinjuku, famoso pela cabeça gigante do Godzilla em sua fachada. Quartos confortáveis, restaurantes e localização incrível.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -143,7 +143,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">The Langham, New York, Fifth Avenue</h5>
           <p class="card-text">Luxuoso hotel na 5ª Avenida, oferece quartos amplos, serviço de alto padrão, restaurante renomado e vista para o Empire State Building.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -155,7 +155,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">Lotte New York Palace</h5>
           <p class="card-text">Clássico e sofisticado, localizado perto da Catedral de St. Patrick. Quartos elegantes e serviço exclusivo no coração de Manhattan.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -167,7 +167,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">Margaritaville Resort Times Square</h5>
           <p class="card-text">Resort moderno no coração da Times Square, com rooftop, piscina e ambiente descontraído. Perfeito para quem busca energia da cidade.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -179,7 +179,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">The Peninsula New York</h5>
           <p class="card-text">Hotel 5 estrelas na 5ª Avenida com spa luxuoso, restaurante sofisticado e rooftop bar com uma das melhores vistas da cidade.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -202,7 +202,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">Copacabana Palace, A Belmond Hotel</h5>
           <p class="card-text">Ícone do Rio, localizado na Praia de Copacabana. Oferece suítes luxuosas, piscina glamorosa e serviço impecável com tradição internacional.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -214,7 +214,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">Hotel Fasano Rio de Janeiro</h5>
           <p class="card-text">Elegância e sofisticação na Praia de Ipanema, com rooftop e piscina de borda infinita que oferecem vista espetacular para o mar.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -226,7 +226,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">Miramar by Windsor</h5>
           <p class="card-text">Localizado em frente à Praia de Copacabana, oferece suítes modernas, piscina no terraço com vista panorâmica e gastronomia premiada.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -238,7 +238,7 @@ function mostrarConteudo(item) {
         <div class="card-body">
           <h5 class="card-title">Fairmont Rio de Janeiro Copacabana</h5>
           <p class="card-text">Hotel 5 estrelas à beira-mar com design contemporâneo, spa, duas piscinas e restaurantes de alta gastronomia com vista para o Pão de Açúcar.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
@@ -250,114 +250,105 @@ function mostrarConteudo(item) {
     `;
   } else if (item === 5) {
     conteudo.innerHTML = `
-      <section id="conteudo-ny" class="ofertas container">
+      <section id="conteudo-londres" class="ofertas container">
   <h3>Ofertas</h3>
   <p>Londres - Inglaterra</p>
   <div class="row g-4">
     
     <div class="col-md-6">
       <div class="card">
-        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/460258021.jpg?k=6a9fca64c214c8139f3a9c6cde25b737c2db3e7c2353b1d85bdbab9db5cfb7e2&o=" 
-             class="card-img-top" alt="Nova York">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/105333426.jpg?k=7a256812ea07b87a852089e8e14e26bda41f12c3b35318d4aa9a6744e6b420cf&o=" class="card-img-top" alt="Londres">
         <div class="card-body">
-          <h5 class="card-title">The Langham, New York, Fifth Avenue</h5>
-          <p class="card-text">Luxuoso hotel na 5ª Avenida, oferece quartos amplos, serviço de alto padrão, restaurante renomado e vista para o Empire State Building.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <h5 class="card-title">The Ritz London</h5>
+          <p class="card-text">Um dos hotéis mais icônicos da cidade, com luxo clássico e serviço impecável.</p>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
 
     <div class="col-md-6">
       <div class="card">
-        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/467568541.jpg?k=30cf5f81c675e4dd6d6f50decd30d3d373bc656394241c47f60c9a5ef0d06e0f&o=" 
-             class="card-img-top" alt="Nova York">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/195106363.jpg?k=ceedaa24d422874282fbfafe9d8dc20aeb206046c590a14477b9bde4ac8253a9&o=" class="card-img-top" alt="Londres">
         <div class="card-body">
-          <h5 class="card-title">Lotte New York Palace</h5>
-          <p class="card-text">Clássico e sofisticado, localizado perto da Catedral de St. Patrick. Quartos elegantes e serviço exclusivo no coração de Manhattan.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <h5 class="card-title">The Savoy</h5>
+          <p class="card-text">Hotel histórico às margens do Tâmisa, famoso pela elegância e tradição britânica.</p>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
 
     <div class="col-md-6">
       <div class="card">
-        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/457192438.jpg?k=645fdac8e690b2f75f59c3821ef8ebda7a4f3a20875f42c8fbecf0a4e91e70e8&o=" 
-             class="card-img-top" alt="Nova York">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/195106049.jpg?k=55d081db949fcd8f53cade837da7e155414764b9912cbe72bfcf4cdc13a16ed2&o=" class="card-img-top" alt="Londres">
         <div class="card-body">
-          <h5 class="card-title">Margaritaville Resort Times Square</h5>
-          <p class="card-text">Resort moderno no coração da Times Square, com rooftop, piscina e ambiente descontraído. Perfeito para quem busca energia da cidade.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <h5 class="card-title">Claridge’s</h5>
+          <p class="card-text">Símbolo de luxo atemporal em Mayfair, conhecido por seu design Art Déco.</p>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
 
     <div class="col-md-6">
       <div class="card">
-        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/467030181.jpg?k=ca59c46d453d013f7161a45a5a18121c622d0e4e181f667f4a7732851da08b16&o=" 
-             class="card-img-top" alt="Nova York">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/194489041.jpg?k=e5c21fbc4e73b92b96086107dc158db7767a8e9c3c903e94a7a386c777270307&o=" class="card-img-top" alt="Londres">
         <div class="card-body">
-          <h5 class="card-title">The Peninsula New York</h5>
-          <p class="card-text">Hotel 5 estrelas na 5ª Avenida com spa luxuoso, restaurante sofisticado e rooftop bar com uma das melhores vistas da cidade.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <h5 class="card-title">The Langham London</h5>
+          <p class="card-text">Um dos primeiros grandes hotéis de Londres, com tradição e hospitalidade excepcionais.</p>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
 
   </div>
 </section>
-
     `;
   } else if (item === 6) {
     conteudo.innerHTML = `
-      <section id="conteudo-ny" class="ofertas container">
+      <section id="conteudo-dubai" class="ofertas container">
   <h3>Ofertas</h3>
-  <p>Dubai - EAU</p>
+  <p>Dubai - Emirados Árabes Unidos</p>
   <div class="row g-4">
     
     <div class="col-md-6">
       <div class="card">
-        <img src="https://s2-g1.glbimg.com/SAPfUNYcsf4N9KoEm49l7cgFKh4=/0x0:2000x1303/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/F/G/ETz7pNR6u4xaZoqvgd0g/063-39426114towe-20010919-00124.jpg.jpg" 
-             class="card-img-top" alt="Nova York">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/546843825.jpg?k=fb0ad88c46dcea803182696f1d98d9f77533f022358aeb30d0d780217162b46c&o=" class="card-img-top" alt="Dubai">
         <div class="card-body">
-          <h5 class="card-title">The Langham, New York, Fifth Avenue</h5>
-          <p class="card-text">Luxuoso hotel na 5ª Avenida, oferece quartos amplos, serviço de alto padrão, restaurante renomado e vista para o Empire State Building.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <h5 class="card-title">Burj Al Arab Jumeirah</h5>
+          <p class="card-text">Ícone mundial em forma de vela, símbolo de luxo e exclusividade em Dubai.</p>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
 
     <div class="col-md-6">
       <div class="card">
-        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/467568541.jpg?k=30cf5f81c675e4dd6d6f50decd30d3d373bc656394241c47f60c9a5ef0d06e0f&o=" 
-             class="card-img-top" alt="Nova York">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/692374834.jpg?k=ca8c8a0d5a5f7e12110e0c67bf43e295b1d07e6ca844b37c4c6ac9250408c165&o=" class="card-img-top" alt="Dubai">
         <div class="card-body">
-          <h5 class="card-title">Lotte New York Palace</h5>
-          <p class="card-text">Clássico e sofisticado, localizado perto da Catedral de St. Patrick. Quartos elegantes e serviço exclusivo no coração de Manhattan.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <h5 class="card-title">Atlantis The Palm</h5>
+          <p class="card-text">Resort famoso na Palm Jumeirah, com parque aquático e aquário gigantesco.</p>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
 
     <div class="col-md-6">
       <div class="card">
-        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/457192438.jpg?k=645fdac8e690b2f75f59c3821ef8ebda7a4f3a20875f42c8fbecf0a4e91e70e8&o=" 
-             class="card-img-top" alt="Nova York">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/692374838.jpg?k=a4e141ef5bf6821933f48d71574ff1eb08b38e97fe4ab5acd4fd9c924e2a7a6c&o=" class="card-img-top" alt="Dubai">
         <div class="card-body">
-          <h5 class="card-title">Margaritaville Resort Times Square</h5>
-          <p class="card-text">Resort moderno no coração da Times Square, com rooftop, piscina e ambiente descontraído. Perfeito para quem busca energia da cidade.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <h5 class="card-title">Armani Hotel Dubai</h5>
+          <p class="card-text">Luxo contemporâneo dentro do Burj Khalifa, com design assinado por Giorgio Armani.</p>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
 
     <div class="col-md-6">
       <div class="card">
-        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/467030181.jpg?k=ca59c46d453d013f7161a45a5a18121c622d0e4e181f667f4a7732851da08b16&o=" 
-             class="card-img-top" alt="Nova York">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/692374865.jpg?k=b7a0298d0a2285ec085463b9fa64b0d7a12a1ec623c10392571e46c30893e336&o=" class="card-img-top" alt="Dubai">
         <div class="card-body">
-          <h5 class="card-title">The Peninsula New York</h5>
-          <p class="card-text">Hotel 5 estrelas na 5ª Avenida com spa luxuoso, restaurante sofisticado e rooftop bar com uma das melhores vistas da cidade.</p>
-          <a href="#" class="btn btn-primary">Reserve o seu</a>
+          <h5 class="card-title">Jumeirah Beach Hotel</h5>
+          <p class="card-text">Hotel icônico à beira-mar, ideal para famílias, com vistas incríveis do Burj Al Arab.</p>
+          <a onclick="alerta()" href="#" class="btn btn-primary">Reserve o seu</a>
         </div>
       </div>
     </div>
