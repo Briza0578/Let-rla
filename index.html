@@ -18,6 +18,30 @@
       color: white;
     }
 
+    .logo h4 {
+      color: black;
+      transition: color 0.3s ease;
+    }
+
+    body.dark .logo h4 {
+      color: white;
+    }
+
+    .footer-principal {
+      background-color: #0d6efd;
+    }
+
+    .footer-secundario {
+      background-color: #2e2e2e;
+      color: #ccc;
+      transition: all 0.3s ease;
+    }
+
+    body.dark .footer-secundario {
+      background-color: #1a1a1a;
+      color: #f1f1f1;
+    }
+
     header {
       display: flex;
       justify-content: space-between;
@@ -33,6 +57,14 @@
       font-size: 18px;
     }
 
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
 
     .alinhador {
       align-items: center;
@@ -94,15 +126,16 @@
 <body>
 
   <header class="d-flex justify-content-between align-items-center px-4">
-    <a class="text-decoration-none text-black" href="index.html"><h4>LetiCarla</h4></a>
-      <button id="btn-tema" onclick="Tema()">🌙</button>
+    <a class="logo" href="index.html">
+      <h4>LetiCarla</h4>
+    </a>
+    <button id="btn-tema" onclick="Tema()">🌙</button>
   </header>
 
   <div class="alinhador">
     <h2>Encontre sua próxima estadia</h2>
     <div class="dropdown mt-3">
-      <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-        aria-expanded="false">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
         Para onde você vai?
       </button>
       <ul class="dropdown-menu">
@@ -115,7 +148,7 @@
       </ul>
     </div>
   </div>
-<br>
+  <br>
   <section id="ofertas" class="ofertas container alinhador">
     <div>
       <p><strong>Experiências únicas pelo mundo<strong></p>
@@ -220,6 +253,17 @@
     </div>
   </section>
 
+  <footer class="footer-principal text-white text-center py-4">
+    <div class="container">
+      <h5>LetiCarla</h5>
+      <p>Experiências únicas pelo mundo</p>
+      <a href="https://www.instagram.com/cavagnollicarla/" class="btn btn-outline-light btn-sm">Saiba mais</a>
+    </div>
+  </footer>
+
+  <footer class="footer-secundario text-center py-2">
+    <p>&copy; 2025 LetiCarla. Todos os direitos reservados.</p>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
